@@ -1,0 +1,25 @@
+# Changelog
+
+### Fixes
+- Fixed some people not seeing the character UI when loading in. (`client/client.lua`)
+- Fixed the `/loadout` command not working.
+- Fixed the config not saving via admin panel (`html/js/script.js`).
+- Fixed the shot spotter not working (`server/server.lua`).
+- Fixed `/me` not displaying when in a vehicle.
+- Fixed the issue with people falling through the map when spawning.
+- Fixed disabling `/do` not working.
+
+### Improvements
+- Made it so editing the config through the admin panel once saved will automatically change the variables without needing to restart the server.
+- Changed image hosting to [ImgBB](https://imgbb.com/) due to issues with Imgur.
+- Increased the character limit design.
+- The config editor now works faster and automatically; no need to restart the server/resource anymore.
+- Removed the blue border from every button and input.
+- Added a small fade-in effect when using `/fw` or `/framework`.
+- Improved console logging when the framework is started.
+- Changed how the `version_checker` is used.
+
+### Additions
+- Added a timestamp in the Discord logging.
+- Added the user ID when using the OOC command.
+- Added a config option for admins to have access to all departments.
